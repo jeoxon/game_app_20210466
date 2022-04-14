@@ -36,8 +36,8 @@ const gameILike = [
 function App() {
   return (
     <div>
-      {gameILike.map(dish=> (
-      <Game name={dish.name} picture={dish.Image} />
+      {gameILike.map(play=> (
+      <Game name={play.name} picture={play.Image} />
       ))}
     </div>
   );
